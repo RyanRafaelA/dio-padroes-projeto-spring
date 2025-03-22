@@ -3,7 +3,7 @@ package com.digitalinovation.lab_padroes_projeto_spring.service;
 import com.digitalinovation.lab_padroes_projeto_spring.model.Cliente;
 
 public interface ClienteService {
-	Iterable<Cliente> bucarTodos();
+	Iterable<Cliente> buscarTodos();
 	
 	Cliente buscarPorId(Long id);
 	

@@ -7,7 +7,7 @@ import jakarta.persistence.Id;
 public class Endereco {
 
 	@Id
-	private String cpf;
+	private String cep;
 	private String logradouro;
 	private String complemento;
 	private String bairro;
@@ -18,8 +18,8 @@ public class Endereco {
 	private String ddd;
 	private String siafi;
 	
-	public String getCpf() { return cpf; }
-	public void setCpf(String cpf) { this.cpf = cpf; }
+	public String getCep() { return cep; }
+	public void setCep(String cep) { this.cep = cep; }
 	
 	public String getLogradouro() { return logradouro; }
 	public void setLogradouro(String logradouro) { this.logradouro = logradouro; }
